@@ -1,9 +1,11 @@
 const express = require('express');
+// eslint-disable-next-line no-unused-vars
 const dotenv = require('dotenv').config();
 const app = express();
 const messageRoute = require('./routes/message');
 
 
+// eslint-disable-next-line no-undef
 const port = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
