@@ -36,6 +36,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Who am I?
+        run: gcloud auth list
+
       - name: Set up Google Cloud SDK
         uses: google-github-actions/auth@v2
         with:
