@@ -5,7 +5,8 @@
   "scripts": {
     "test": "jest",
     "dev": "nodemon index.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "echo 'Building app...'"
   },
   "keywords": [],
   "author": "",
